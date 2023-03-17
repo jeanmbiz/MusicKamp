@@ -1,0 +1,6 @@
+_venv
+__pycache__
+.vscode
+db.sqlite3
+.env
+views.antiga.py
