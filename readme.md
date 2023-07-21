@@ -39,17 +39,17 @@ git clone git@github.com:jeanmbiz/MusicKamp.git
 ```
 python -m venv venv
 ```
-##### Ative o Ambiente Virtual no Windows:
+#### 3.1. Ative o Ambiente Virtual no Windows:
 ```
 source venv/Scripts/activate
 ```
-##### Ative o Ambiente Virtual no macOS ou Linux:
+#### 3.2. Ative o Ambiente Virtual no macOS ou Linux:
 ```
 source venv/bin/activate
 ```
 
 
-#### 4. Instale as dependências do projeto usando o gerenciador de pacotes pip:
+#### 4. Instale as dependências do projeto utilizando o gerenciador de pacotes pip:
 ```
 pip install -r requirements.txt
 ```
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 #### 5. Configure o banco de dados criando arquivo .env com base no arquivo .env.example:
 
 
-#### 6. Execute as migrações para criar as tabelas do banco de dados:
+#### 6. Execute as migrações para criar as tabelas no banco de dados:
 ```
 python manage.py migrate
 ```
