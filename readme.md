@@ -1,5 +1,5 @@
 # MusicKamp
-#### MusicKamp é um projeto CRUD em Django Rest Framework que permite aos usuários catalogarem seus álbuns favoritos com base nos gêneros musicais.
+#### MusicKamp é um projeto CRUD em Django Rest Framework que permite aos usuários catalogarem seus álbuns de músicas favoritos.
 
 
 ## Tecnologias Utilizadas
@@ -11,6 +11,8 @@
 - PostgreSQL (Banco de Dados)
 - Python 3.x
 
+## Diagrama do Projeto
+![diagrama](/diagrama.jpg)
 
 ## Endpoints da API
 - Listar, criar e editar álbuns: http://localhost:8000/albums/
