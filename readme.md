@@ -76,7 +76,7 @@ http://localhost:8000/
 
 - Albums: 
   - Criar Album: http://localhost:8000/api/albums/
-  - Buscar Album: http://localhost:8000/api/albums/<idAlbum>/songs/
+  - Buscar Album: http://localhost:8000/api/albums/idAlbum/songs/
 
 - Músicas: 
-  - Criar Músicas: http://localhost:8000/api/albums/<idAlbum>/songs/
+  - Criar Músicas: http://localhost:8000/api/albums/idAlbum/songs/
