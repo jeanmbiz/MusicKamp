@@ -14,16 +14,6 @@
 ## Diagrama do Projeto
 ![diagrama](/diagrama.jpg)
 
-## Endpoints da API
-- Listar, criar e editar álbuns: http://localhost:8000/albums/
-- Detalhes de um álbum específico: http://localhost:8000/albums/idAlbum/
-- Listar, criar e editar músicas de um álbum: http://localhost:8000/albums/idAlbum/songs/
-- Listar, criar e editar usuários: http://localhost:8000/users/
-- Detalhes de um usuário específico: http://localhost:8000/users/idUser/
-- Login de usuário e obtenção de token JWT: http://localhost:8000/users/login/
-- Documentação da API: http://localhost:8000/api/docs/
-
-
 ## Instalação
 ### Para executar o projeto localmente, siga as etapas abaixo:
 
@@ -76,3 +66,17 @@ python manage.py runserver
 ```
 http://localhost:8000/
 ```
+
+## Endpoints da API
+- Usuários:
+  - Criar Usuário: http://localhost:8000/api/users/
+  - Buscar, Editar, Deletar Usuário por ID: http://localhost:8000/api/users/<id>/
+
+- Login: http://localhost:8000/api/users/login/
+
+- Albums: 
+  - Criar Album: http://localhost:8000/api/albums/
+  - Buscar Album: http://localhost:8000/api/albums/<idAlbum>/songs/
+
+- Músicas: 
+  - Criar Músicas: http://localhost:8000/api/albums/<idAlbum>/songs/
